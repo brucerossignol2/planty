@@ -9,7 +9,7 @@ function theme_enqueue_style() {
 }
 add_action('wp_enqueue_scripts', 'theme_enqueue_style');
 
-// Ajouter un bouton "WP Admin" dans l'en-tête par le hook d action "wp_head" visible pour l administrateur
+// Ajouter un bouton "WP Admin" dans l'en-tête par le hook d action "wp_nav_menu_items" visible pour l administrateur
 add_action('wp_nav_menu_items', function($items, $args) {
     if (is_user_logged_in() && current_user_can('manage_options')) {
         $admin_url = admin_url();
