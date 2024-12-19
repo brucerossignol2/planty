@@ -16,7 +16,7 @@
     padding-bottom: 0px;
   }
 
-/* Mise en forme du menu Nous rencontrer et Admin */
+/* Mise en forme du menu -Nous rencontrer- et -Admin- */
   .nousrencontrer,
   .menu-item-admin {
   padding: 20px 10px !important;	
@@ -68,8 +68,8 @@
 
 /* Barre de séparation  */
 .separateur-horizontal {
-	width: 860px; 
-	height: 2px;
+	width: 100%; 
+	height: 1px;
 	background-color: white;
 	margin: 20px auto;
 }
@@ -107,6 +107,7 @@
 .custom-title {
     font-family: 'Syne', sans-serif;
     font-weight: bold;
+	color: white;
     font-size: 30px;
 }
 
