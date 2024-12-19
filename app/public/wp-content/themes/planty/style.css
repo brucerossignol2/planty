@@ -49,10 +49,21 @@
 
   /* Mise en forme du formulaire de commande  */
   .image-container {
+	position: relative;
 	text-align: center; 
 	margin: 9px;
 	display: inline-block;
 }
+.title {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Syne', sans-serif !important;
+    font-weight: 800 !important;
+    font-size: 20px !important;
+	color: white; 
+  }
 .image-container img {
 	width: 192px; 
 	height: auto; 
