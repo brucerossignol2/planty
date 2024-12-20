@@ -10,90 +10,62 @@
 @import url("../hello-elementor/style.css");
 
 /* Entête */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Syne', sans-serif;
-}
-
-/* mise en forme du menu wp_nav_menu et du logo */
-/* En-tête principal pleine largeur */
-.site-header {
-	max-width: 1440px !important; /* Largeur maximale */
-	width: 100%;
-	margin: 0 !important;  /* Supprime les marges par défaut */
-    padding: 0 !important;  /* Supprime les espaces internes */
+#site-header {
 	height: 80px !important; 
-    background-color: #ffffff; /* Couleur d'arrière-plan */
+	padding-top: 0px;
+    padding-bottom: 0px;
+  }
+/* mise en forme du menu wp_nav_menu */
+  .main-nav {
+	padding: 20px 10px !important;
+    background-color: #ffffff;
 }
-
-/* Conteneur centré pour le contenu du header */
-.container {
-    width: 100%; /* Espacement interne */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.main-nav a:hover{
+	font-family: 'Syne', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 13px !important;
 }
-
-/* Logo */
-.logo img {
-    max-height: 50px;
-    width: auto;
-}
-
-/* Menu */
-.main-navigation {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-	background-color: #ffffff;
-}
-
-.main-navigation .menu-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-	align-items: center;
-    gap: 20px;
-}
-
-.main-navigation .menu-list li {
+.menu li {
     display: inline-block;
-	margin: 0 10px;
+    margin: 0 10px;
 }
-
-.main-navigation .menu-list a {
+.menu li a {
 	font-family: 'Syne', sans-serif !important;
     font-weight: 400 !important;
     font-size: 16px !important;
+	color: black !important;
 	line-height: 1.5;
 }
 
-/* Mise en forme du menu -Nous rencontrer- et -Admin-  */
-.nousrencontrer a,
-.wp-admin-button a {
-	padding: 20px 10px !important;
-	color: black !important; 	
+/* Mise en forme du menu -Nous rencontrer- et -Admin- par le thème WP */
+  .nousrencontrer,
+  .menu-item-admin {
+  padding: 20px 10px !important;	
 }
-
 .nousrencontrer a:hover,
-.wp-admin-button a:hover {
-	font-family: 'Syne', sans-serif !important;
-	font-weight: 700 !important;
-	font-size: 13px !important;
-}
+.menu-item-admin a:hover {
+    font-family: 'Syne', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 13px !important;
+  }
 
-/* Mise en forme du bouton Commander */
+/* Mise en forme du bouton Commander par le thème WP */
 .BoutonCommander a {
     display: inline-block !important;
-    color: #ffffff !important; 
+    color: #FFFFFF !important; 
     background-color: #DC9F96;
 	padding: 28px 15px !important;	
   }
 .BoutonCommander a:hover {
     background-color: #C02E44;
-}
+    color: #ffffff !important;
+  }
+  .form1 {
+	font-family: 'Syne', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+	line-height: 1.5;
+  }
 
   /* Mise en forme du formulaire de commande  */
   .image-container {

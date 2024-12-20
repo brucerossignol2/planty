@@ -42,3 +42,186 @@
 [18-Dec-2024 06:40:08 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 923
 [18-Dec-2024 06:40:48 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 923
 [18-Dec-2024 14:44:44 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\Users\Bruce\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\widgets.php on line 378
+[19-Dec-2024 20:33:14 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 923
+[19-Dec-2024 21:09:45 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Bruce\Local Sites\planty\app\public\wp-content\themes\planty\footer.php on line 13
+[19-Dec-2024 21:46:37 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 923
+[19-Dec-2024 21:54:22 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\post-template.php on line 1349
+[19-Dec-2024 21:59:12 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 923
+[19-Dec-2024 22:01:45 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 923
+[19-Dec-2024 23:14:05 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 923
+[20-Dec-2024 07:33:22 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 923
+[20-Dec-2024 11:12:48 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 923
+[20-Dec-2024 11:26:37 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_my_menus" not found or invalid function name in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Bruce\Local Sites\planty\app\public\wp-settings.php(704): do_action('init')
+#3 C:\Users\Bruce\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Bruce\\...')
+#4 C:\Users\Bruce\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Bruce\\...')
+#5 C:\Users\Bruce\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Bruce\\...')
+#6 {main}
+  thrown in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[20-Dec-2024 11:26:38 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_my_menus" not found or invalid function name in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Bruce\Local Sites\planty\app\public\wp-settings.php(704): do_action('init')
+#3 C:\Users\Bruce\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Bruce\\...')
+#4 C:\Users\Bruce\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Bruce\\...')
+#5 C:\Users\Bruce\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Bruce\\...')
+#6 C:\Users\Bruce\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Bruce\\...')
+#7 {main}
+  thrown in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[20-Dec-2024 11:26:38 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_my_menus" not found or invalid function name in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Bruce\Local Sites\planty\app\public\wp-settings.php(704): do_action('init')
+#3 C:\Users\Bruce\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Bruce\\...')
+#4 C:\Users\Bruce\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Bruce\\...')
+#5 C:\Users\Bruce\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Bruce\\...')
+#6 C:\Users\Bruce\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Bruce\\...')
+#7 {main}
+  thrown in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[20-Dec-2024 11:26:53 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_my_menus" not found or invalid function name in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Bruce\Local Sites\planty\app\public\wp-settings.php(704): do_action('init')
+#3 C:\Users\Bruce\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Bruce\\...')
+#4 C:\Users\Bruce\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Bruce\\...')
+#5 C:\Users\Bruce\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Bruce\\...')
+#6 C:\Users\Bruce\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Bruce\\...')
+#7 {main}
+  thrown in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[20-Dec-2024 11:26:53 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_my_menus" not found or invalid function name in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Bruce\Local Sites\planty\app\public\wp-settings.php(704): do_action('init')
+#3 C:\Users\Bruce\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Bruce\\...')
+#4 C:\Users\Bruce\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Bruce\\...')
+#5 C:\Users\Bruce\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Bruce\\...')
+#6 C:\Users\Bruce\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Bruce\\...')
+#7 {main}
+  thrown in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[20-Dec-2024 11:26:54 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_my_menus" not found or invalid function name in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Bruce\Local Sites\planty\app\public\wp-settings.php(704): do_action('init')
+#3 C:\Users\Bruce\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Bruce\\...')
+#4 C:\Users\Bruce\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Bruce\\...')
+#5 C:\Users\Bruce\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Bruce\\...')
+#6 C:\Users\Bruce\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Bruce\\...')
+#7 {main}
+  thrown in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[20-Dec-2024 11:26:54 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_my_menus" not found or invalid function name in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Bruce\Local Sites\planty\app\public\wp-settings.php(704): do_action('init')
+#3 C:\Users\Bruce\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Bruce\\...')
+#4 C:\Users\Bruce\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Bruce\\...')
+#5 C:\Users\Bruce\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Bruce\\...')
+#6 C:\Users\Bruce\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Bruce\\...')
+#7 {main}
+  thrown in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[20-Dec-2024 11:26:54 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_my_menus" not found or invalid function name in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Bruce\Local Sites\planty\app\public\wp-settings.php(704): do_action('init')
+#3 C:\Users\Bruce\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Bruce\\...')
+#4 C:\Users\Bruce\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Bruce\\...')
+#5 C:\Users\Bruce\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Bruce\\...')
+#6 C:\Users\Bruce\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Bruce\\...')
+#7 {main}
+  thrown in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[20-Dec-2024 11:26:54 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_my_menus" not found or invalid function name in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Bruce\Local Sites\planty\app\public\wp-settings.php(704): do_action('init')
+#3 C:\Users\Bruce\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Bruce\\...')
+#4 C:\Users\Bruce\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Bruce\\...')
+#5 C:\Users\Bruce\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Bruce\\...')
+#6 C:\Users\Bruce\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Bruce\\...')
+#7 {main}
+  thrown in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[20-Dec-2024 11:26:54 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_my_menus" not found or invalid function name in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Bruce\Local Sites\planty\app\public\wp-settings.php(704): do_action('init')
+#3 C:\Users\Bruce\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Bruce\\...')
+#4 C:\Users\Bruce\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Bruce\\...')
+#5 C:\Users\Bruce\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Bruce\\...')
+#6 C:\Users\Bruce\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Bruce\\...')
+#7 {main}
+  thrown in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[20-Dec-2024 11:26:55 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_my_menus" not found or invalid function name in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Bruce\Local Sites\planty\app\public\wp-settings.php(704): do_action('init')
+#3 C:\Users\Bruce\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Bruce\\...')
+#4 C:\Users\Bruce\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Bruce\\...')
+#5 C:\Users\Bruce\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Bruce\\...')
+#6 C:\Users\Bruce\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Bruce\\...')
+#7 {main}
+  thrown in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[20-Dec-2024 11:26:55 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_my_menus" not found or invalid function name in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Bruce\Local Sites\planty\app\public\wp-settings.php(704): do_action('init')
+#3 C:\Users\Bruce\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Bruce\\...')
+#4 C:\Users\Bruce\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Bruce\\...')
+#5 C:\Users\Bruce\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Bruce\\...')
+#6 C:\Users\Bruce\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Bruce\\...')
+#7 {main}
+  thrown in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[20-Dec-2024 11:26:55 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_my_menus" not found or invalid function name in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Bruce\Local Sites\planty\app\public\wp-settings.php(704): do_action('init')
+#3 C:\Users\Bruce\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Bruce\\...')
+#4 C:\Users\Bruce\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Bruce\\...')
+#5 C:\Users\Bruce\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Bruce\\...')
+#6 C:\Users\Bruce\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Bruce\\...')
+#7 {main}
+  thrown in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[20-Dec-2024 11:26:55 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_my_menus" not found or invalid function name in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Bruce\Local Sites\planty\app\public\wp-settings.php(704): do_action('init')
+#3 C:\Users\Bruce\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Bruce\\...')
+#4 C:\Users\Bruce\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Bruce\\...')
+#5 C:\Users\Bruce\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Bruce\\...')
+#6 C:\Users\Bruce\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Bruce\\...')
+#7 {main}
+  thrown in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[20-Dec-2024 11:26:55 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_my_menus" not found or invalid function name in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Bruce\Local Sites\planty\app\public\wp-settings.php(704): do_action('init')
+#3 C:\Users\Bruce\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Bruce\\...')
+#4 C:\Users\Bruce\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Bruce\\...')
+#5 C:\Users\Bruce\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Bruce\\...')
+#6 C:\Users\Bruce\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Bruce\\...')
+#7 {main}
+  thrown in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[20-Dec-2024 11:27:37 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_my_menus" not found or invalid function name in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Bruce\Local Sites\planty\app\public\wp-settings.php(704): do_action('init')
+#3 C:\Users\Bruce\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Bruce\\...')
+#4 C:\Users\Bruce\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Bruce\\...')
+#5 C:\Users\Bruce\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Bruce\\...')
+#6 {main}
+  thrown in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324

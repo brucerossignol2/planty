@@ -9,14 +9,35 @@ function theme_enqueue_style() {
 }
 add_action('wp_enqueue_scripts', 'theme_enqueue_style');
 
+// Déclarez un emplacement de menu
+function register_custom_menus() {
+    register_nav_menus(
+        array(
+            'menu-entete' => __( 'Menu Entête', 'menu-entete' ) // Remplacez 'theme-slug' par le slug de votre thème.
+        )
+    );
+}
+add_action( 'init', 'register_custom_menus' );
+
 // Ajouter un bouton "WP Admin" dans l'en-tête par le hook d action "wp_nav_menu_items" visible pour l administrateur
-add_action('wp_nav_menu_items', function($items, $args) {
-    if (is_user_logged_in() && current_user_can('manage_options')) {
-        $admin_url = admin_url();
-        $items_array = explode('</li>', $items);
-        array_splice($items_array, 1, 0, '<li class="menu-item-admin"><a href="' . $admin_url . '">Admin</a></li>');
-        $items = implode('</li>', $items_array);
+function add_wp_admin_button_second_position($items, $args) {
+    // Vérifie si le menu correspond à "menu-entete"
+    if ($args->theme_location === 'menu-entete') {
+        // Bouton WP-admin pour les utilisateurs connectés
+        if (is_user_logged_in()) {
+            $admin_url = esc_url(admin_url());
+            $wp_admin_item = '<li class="menu-item wp-admin-button"><a href="' . $admin_url . '">Admin</a></li>';
+            
+            // Convertit le menu en tableau pour insérer à la 2e position
+            $menu_items = explode('</li>', $items); // Divise les items
+            array_splice($menu_items, 1, 0, $wp_admin_item); // Insère après le premier item
+            
+            // Reconstruit le menu
+            $items = implode('</li>', $menu_items);
+        }
     }
     return $items;
-}, 10, 2);
+}
+add_filter('wp_nav_menu_items', 'add_wp_admin_button_second_position', 10, 2);
+
 ?>
