@@ -13,7 +13,7 @@ add_action('wp_enqueue_scripts', 'theme_enqueue_style');
 function register_custom_menus() {
     register_nav_menus(
         array(
-            'menu-entete' => __( 'Menu Entête', 'menu-entete' ) // Remplacez 'theme-slug' par le slug de votre thème.
+            'menu-entete' => __( 'Menu Entête', 'menu-entete' )
         )
     );
 }

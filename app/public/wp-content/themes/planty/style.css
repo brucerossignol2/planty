@@ -9,28 +9,22 @@
 /* Importer les styles du thème parent */
 @import url("../hello-elementor/style.css");
 
-/* Entête */
 body {
-    margin: 0;
+	margin: 0;
     padding: 0;
     font-family: 'Syne', sans-serif;
 }
-
-/* mise en forme du menu wp_nav_menu et du logo */
-/* En-tête principal pleine largeur */
-.site-header {
-	max-width: 1440px !important; /* Largeur maximale */
-	width: 100%;
-	margin: 0 !important;  /* Supprime les marges par défaut */
-    padding: 0 !important;  /* Supprime les espaces internes */
+/* mise en forme de l entête */
+.site-entete {
+	width: 100% !important;
+	margin: 0 !important;  
+    padding: 0 !important;  
 	height: 80px !important; 
-    background-color: #ffffff; /* Couleur d'arrière-plan */
 }
-
-/* Conteneur centré pour le contenu du header */
-.container {
-    width: 100%; /* Espacement interne */
-    display: flex;
+/* Contenant du logo et menu */
+.contenu {
+    background-color: #ffffff; 
+	display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -55,12 +49,11 @@ body {
     padding: 0;
     display: flex;
 	align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .main-navigation .menu-list li {
     display: inline-block;
-	margin: 0 10px;
 }
 
 .main-navigation .menu-list a {
@@ -112,15 +105,18 @@ body {
     font-size: 20px !important;
 	color: white; 
   }
+
 .image-container img {
 	width: 192px; 
 	height: auto; 
 }
+
 .image-container input {
 	width: 80px !important; 
 	font-size: 16px; 
 	margin-top: 10px; 
 }
+
 .gallery {
 	text-align: center; 
 }
@@ -162,14 +158,14 @@ body {
 	height: 300px;       
 	background-color: white; 
 }
-/* Mis en forme des titres des coordonnées */
+/* Mise en forme des titres des coordonnées */
 .custom-title {
     font-family: 'Syne', sans-serif;
     font-weight: bold;
 	color: white;
     font-size: 30px;
 }
-/* Mis en forme du pied */
+/* Mise en forme du pied */
 .bloc-pied {
 	display: flex;
 	justify-content: center;
@@ -177,11 +173,13 @@ body {
 	background-color: white;
 	height: 60px;
 }
+
 .mention-pied a{
     font-family: 'Syne', sans-serif;
 	color: black !important;
     font-size: 16px;
 }
+
   /* Adaptation pour petits écrans */
   @media (max-width: 768px) {
 	/* Modification de la taille du titre */
