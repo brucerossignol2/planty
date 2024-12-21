@@ -17,12 +17,12 @@
 
 <nav class="main-navigation">
 
-<!-- Menu -->
+		<!-- Menu -->
         <nav class="main-navigation">
             <?php
             wp_nav_menu( array(
 				'theme_location' => 'menu-entete',
-				'menu' => 'menu-entete',
+				'menu' 			=> 'menu-entete',
                 'menu_class'     => 'menu-list',
                 'container'      => false,
             ) );

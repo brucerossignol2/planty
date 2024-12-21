@@ -19,11 +19,11 @@ function register_custom_menus() {
 }
 add_action( 'init', 'register_custom_menus' );
 
-// Ajouter un bouton "WP Admin" dans l'en-tête par le hook d action "wp_nav_menu_items" visible pour l administrateur
+// Ajouter un bouton "Admin" dans l'en-tête par le hook d action "wp_nav_menu_items"
 function add_wp_admin_button_second_position($items, $args) {
     // Vérifie si le menu correspond à "menu-entete"
     if ($args->theme_location === 'menu-entete') {
-        // Bouton WP-admin pour les utilisateurs connectés
+        // Bouton Admin pour les utilisateurs connectés
         if (is_user_logged_in()) {
             $admin_url = esc_url(admin_url());
             $wp_admin_item = '<li class="menu-item wp-admin-button"><a href="' . $admin_url . '">Admin</a></li>';
