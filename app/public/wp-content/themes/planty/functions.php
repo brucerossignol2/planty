@@ -19,8 +19,8 @@ function register_custom_menus() {
 }
 add_action( 'init', 'register_custom_menus' );
 
-// Ajouter un bouton "Admin" dans l'en-tête par le hook d action "wp_nav_menu_items"
-function add_wp_admin_button_second_position($items, $args) {
+// Ajouter un bouton "Admin" dans l'en-tête par le hook filtre "wp_nav_menu_items"
+function mettre_bouton_admin($items, $args) {
     // Vérifie si le menu correspond à "menu-entete"
     if ($args->theme_location === 'menu-entete') {
         // Bouton Admin pour les utilisateurs connectés
@@ -38,6 +38,6 @@ function add_wp_admin_button_second_position($items, $args) {
     }
     return $items;
 }
-add_filter('wp_nav_menu_items', 'add_wp_admin_button_second_position', 10, 2);
+add_filter('wp_nav_menu_items', 'mettre_bouton_admin', 10, 2);
 
 ?>

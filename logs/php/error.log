@@ -236,3 +236,6 @@ Stack trace:
 [21-Dec-2024 08:49:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Bruce\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
 [21-Dec-2024 08:49:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Bruce\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
 [21-Dec-2024 08:49:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Bruce\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[23-Dec-2024 08:38:36 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 923
+[23-Dec-2024 08:39:11 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 923
+[23-Dec-2024 08:39:49 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Bruce\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 923
