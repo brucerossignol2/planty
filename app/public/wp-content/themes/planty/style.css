@@ -88,7 +88,7 @@ body {
     background-color: #C02E44;
 }
 
-  /* Mise en forme du formulaire de commande  */
+/* Mise en forme du formulaire de commande  */
   .image-container {
 	position: relative;
 	text-align: center; 
@@ -152,7 +152,7 @@ body {
 .rounded-button {
     border-radius: 5px !important; 
 }
-/* Barre de séparation */
+/* Barre de séparation verticale */
 .separateur-vertical {
 	width: 2px;          
 	height: 300px;       
@@ -180,29 +180,4 @@ body {
     font-size: 16px;
 }
 
-  /* Adaptation pour petits écrans */
-  @media (max-width: 768px) {
-	/* Modification de la taille du titre */
-    .elementor-heading-title {
-        font-size: 20px !important; 
-        line-height: 1.2 !important; 
-    }
-	/* Diminution des 3 images */
-	.attachment-large {
-		width: 250px !important; 
-	  }
-	  .wp-image-77 {
-		position: relative;
-		height: 230px !important; 
-		left: 40px !important; 
-	  }
-	  .wp-image-79 {
-		position: relative;
-		left: 0px !important; 
-	  }
-	  .wp-image-80 {
-		position: relative;
-		height: 230px !important;  
-		right: 75px !important;
-	  }
-}
+  
