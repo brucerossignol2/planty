@@ -84,6 +84,7 @@ body {
     background-color: #DC9F96;
 	padding: 28px 15px !important;	
   }
+
 .BoutonCommander a:hover {
     background-color: #C02E44;
 }
@@ -95,6 +96,7 @@ body {
 	margin: 9px;
 	display: inline-block;
 }
+
 .title {
 	position: absolute;
 	top: 25%;
@@ -128,22 +130,26 @@ body {
 	background-color: white;
 	margin: 20px auto;
 }
+
 /* Colonnes de la prise de coordonnées */
 .bloc-coordonnees {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
 .colonne {
 	color: white;
 	padding: 0 20px;    
 }
+
 .colonne label {
 	font-family: 'Syne', sans-serif;
     font-size: 20px;
 	color: white;
 	padding: 10px;   
 }
+
 /* Pour arrondir les cadres des champs */
 .rounded-input {
     border-radius: 7px !important; 
@@ -152,12 +158,14 @@ body {
 .rounded-button {
     border-radius: 5px !important; 
 }
+
 /* Barre de séparation verticale */
 .separateur-vertical {
 	width: 2px;          
 	height: 300px;       
 	background-color: white; 
 }
+
 /* Mise en forme des titres des coordonnées */
 .custom-title {
     font-family: 'Syne', sans-serif;
@@ -165,6 +173,7 @@ body {
 	color: white;
     font-size: 30px;
 }
+
 /* Mise en forme du pied */
 .bloc-pied {
 	display: flex;
