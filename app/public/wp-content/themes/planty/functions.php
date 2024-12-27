@@ -26,7 +26,7 @@ function mettre_bouton_admin($items, $args) {
         // Bouton Admin pour les utilisateurs connectés
         if (is_user_logged_in()) {
             $admin_url = esc_url(admin_url());
-            $wp_admin_item = '<li class="menu-item wp-admin-button"><a href="' . $admin_url . '">Admin</a></li>';
+            $wp_admin_item = '<li class="menu-item wp-admin-button"><a href="' . $admin_url . '">Admin</a>';
             
             // Convertit le menu en tableau pour insérer à la 2e position
             $menu_items = explode('</li>', $items); // Divise les items
@@ -40,4 +40,4 @@ function mettre_bouton_admin($items, $args) {
 }
 add_filter('wp_nav_menu_items', 'mettre_bouton_admin', 10, 2);
 
-?>
+

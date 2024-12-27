@@ -85,6 +85,19 @@ body {
 	padding: 28px 15px !important;	
   }
 
+  /* Pour centrer les champs de contact */
+  .bloc-message {
+	display: flex;
+    flex-direction: column;
+}
+
+  /* Pour centrer le bouton d'envoi */
+.bouton-envoyer {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement si nécessaire */
+}
+
 .BoutonCommander a:hover {
     background-color: #C02E44;
 }
@@ -154,9 +167,15 @@ body {
 .rounded-input {
     border-radius: 7px !important; 
 }
+/* Pour centrer le bouton d'envoi */
+.bouton-commander {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement si nécessaire */
+}
 /* Pour arrondir le bouton d'envoi */
 .rounded-button {
-    border-radius: 5px !important; 
+	border-radius: 5px !important; 
 }
 
 /* Barre de séparation verticale */

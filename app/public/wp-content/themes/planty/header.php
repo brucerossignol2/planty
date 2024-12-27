@@ -15,8 +15,6 @@
             </a>
         </div>
 
-<nav class="main-navigation">
-
 		<!-- Menu -->
         <nav class="main-navigation">
             <?php
@@ -30,8 +28,8 @@
         </nav>
 	</div>
 </header>
-<?php wp_footer(); ?>
-</body>
-</html>
+
+
+
 
 
