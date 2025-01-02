@@ -8,7 +8,7 @@
 <body <?php body_class(); ?>>
 <header class="site-entete">
 	<div class="contenu">
-        <!-- Logo -->
+        <!-- Logo dans l entete -->
         <div class="logo">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
                 <img src="<?php echo get_theme_file_uri( '../../uploads/2024/12/Logo-source-300x51.png' ); ?>" alt="<?php bloginfo( 'name' ); ?>" />
